@@ -1,0 +1,19 @@
+#wrap{width:980px;margin:120px auto 800px auto;}
+#header{font:50px normal Georgia,'Times New Roman',Times,serif;color:#111;margin:0;text-align:center;padding:5px 0;text-shadow:1px 1px 3px #000;}
+#header h1{font-size:50px; font-weight:normal;}
+#header h2{font-size:32px; font-weight:normal;}
+#header h2 small{font-size:24px; padding:0 5px; font-weight:normal;}
+#header p{font:12px normal Verdana,Arial,Helvetica,sans-serif;text-transform:uppercase;letter-spacing:1.8em;display:block;color:#999;text-shadow:1px 1px 3px #ccc;}
+ul#navigation{position:relative;margin:0px auto;width:721px;overflow:hidden;}
+ul#navigation li{width:100px;float:left;margin-right:1px;margin-top:-80px;background:url(../images/indexNav.png) no-repeat #000 1000px 1000px;border:1px solid #000;text-align:center;padding-top:80px;}
+ul#navigation li a{display:block;width:100px;text-decoration:none;letter-spacing:2px;font-size:14px;text-align:center;color:#fff;line-height:30px;text-shadow:1px 1px 3px #fff;}
+ul#navigation li a:hover{background:#222;}
+ul#navigation li dd{display:none;border-top:1px solid #222;}
+ul#navigation .home {background-position:0 10px;}
+ul#navigation .about {background-position:-103px 10px;}
+ul#navigation .model {background-position:-618px 10px;}
+ul#navigation .cms {background-position:-412px 10px;}
+ul#navigation .blog {background-position:-309px 10px;}
+ul#navigation .html5 {background-position:-206px 10px;}
+ul#navigation .mobile {background-position:-515px 10px;}
+#webTools{width:980px; margin:0 auto; text-align:center;}

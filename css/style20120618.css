@@ -1,0 +1,59 @@
+#wrap
+{
+    width:980px; margin:0 auto;  margin-top:200px; }
+#header{border-bottom:3px solid #009bff; border-radius:0 0 10px 10px;}
+ul#navigation {
+    position: relative;
+    margin: 0px auto;
+    top: 0px;
+    right: 10px;
+    width:721px;
+    overflow:hidden;
+}
+ul#navigation li {
+    width: 103px;
+    display:inline;
+    float:left;
+}
+ul#navigation li a {
+    display: block;
+    float:left;
+    margin-top: -2px;
+    width: 100px;
+    height: 25px;
+    background-image:url(../images/indexNav.png);
+    background-color:#E7F2F9;
+    background-repeat:no-repeat;
+    border:1px solid #BDDCEF;
+    text-align:center;
+    padding-top:80px;
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+    border-radius:0 0 10px 10px;
+    text-decoration:none;
+}
+ul#navigation li a:hover{
+     background-color:#CAE3F2;
+}
+ul#navigation li a span{
+    letter-spacing:2px;
+    font-size:11px;
+    color:#007CC4;
+    text-shadow: 0 -1px 1px #fff;
+    line-height:22px;
+    text-shadow:1px 1px 1px #ccc;
+}
+ul#navigation .home a{
+background-position:0 10px;}
+ul#navigation .about a      {
+background-position:-103px 10px;}
+ul#navigation .search a      {
+background-position:-206px 10px;}
+ul#navigation .podcasts a      {
+background-position:-309px 10px;}
+ul#navigation .rssfeed a   {
+background-position:-412px 10px;}
+ul#navigation .photos a     {
+background-position:-515px 10px;}
+ul#navigation .contact a    {
+background-position:-618px 10px;}

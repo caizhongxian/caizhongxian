@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+/*reset*/
+body,ul,ol,h1,h2,h3,h4,h5,h6,p,dl,dt,dd,th,td,textarea,input,select,form{padding:0;margin:0;}
+div,li,p{font:normal 12px/18px "宋体",Arial, Helvetica, sans-serif;}
+li{list-style:none;}
+img{border:none;}
+textarea{resize:none;overflow:auto;}
+/*endReset*/
+
+/*public*/
+.clear{zoom:1;}
+.clear:after{content:"";display:block;clear:both;}
+body{background:#000;}
+#wrap{background:url(../bg/wrapTop_bg.png) no-repeat center 0 #000;margin:0 auto;}
+.wrapFoot{background:url(../bg/wrapBottom_bg.png) no-repeat center bottom;padding:78px 249px 144px 251px;}
+.page{margin:0 auto;width:940px;}
+.head{width:940px;}
+.loginBar{float:left;width:201px;background:url(../bg/login_bg.png) no-repeat 14px 0;padding:0 22px 0 14px;position:relative;}
+.timboLogin{position:absolute;left:-8px;top:178px;z-index:3;}
+.logo{float:left;width:628px;margin-left:35px;padding:14px 0px 73px 17px;}
+.logo img{display:block;}
+.logoImgBottom{margin:4px 0 0 3px;}
+/*endPublic*/
+
+/*shop*/
+.shop{width:940px;background:url(../bg/propaganda_shopTop_bg.png) no-repeat 0 11px;padding:0;position:relative;}
+.shop ul{padding:0 20px 8px 20px;}
+.shopTitle{padding:0 353px;}
+.videoListBox{float:left;width:144px;padding:17px 18px;}
+.videoListBox a img{padding-bottom:1px;}
+.videoListBox h4{font-size:12px;line-height:18px;color:#CCC;}
+.videoListBox p{font-size:12px;line-height:18px;color:#696969;}
+.pageFooter{float:left;width:940px;background:url(../bg/propaganda_shopBottom_bg.png) no-repeat 0 bottom;font-size:12px;padding:42px 0;text-align:center;color:#696969;}
+.pageFooter a{text-decoration:none;color:#696969;}
+.timboShop{position:absolute;right:-41px;top:-10px;}
+/*endShop*/
+
